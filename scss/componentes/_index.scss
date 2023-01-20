@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: $fontsub;
+    color: #75856d;
+    
+}
+.conteoss{
+    margin:50px;
+.seccionconteo{
+    font-size: $txtmed;
+    
+    @media only screen and (max-width: 808px){
+        
+        font-size: $txtxsmall;
+    }
+
+
+    .contenedorconteo{       
+        font-family: $fontsofia; 
+        color:white;
+        background-color: #75856d;
+        border-radius: 10px;
+       
+        
+        margin: 10px;
+        padding: 2px;
+        &:hover{
+            border-radius: 3px;
+            background-color:  white;
+            color: #85826d;
+            
+        }
+        h2{
+            font-size: $txtmed;
+
+            
+        }
+
+        @media only screen and (max-width: 808px){
+        h2{
+            font-size: $txtxxs;
+        }
+    }
+    
+    }
+}
+}
+.container-body{
+    margin: 80px;
+    padding: 40px;
+    
+    @media screen and (max-width: 808px) {
+        padding: 60px;
+        
+    }
+    @media only screen and (max-width: 581px){
+        margin: 40px;
+        padding: 30px;
+
+    }
+    img{
+        width: 40px;
+        @media screen and (max-width: 581px) {
+            width: 20px
+            
+        }
+    }
+    h3{
+     
+        color: black;
+       
+       margin-bottom: 50px;
+        font-size: $txtxsmall;
+        
+        
+        @media screen and (max-width: 808px) {
+            font-size: $txtxxs;
+            margin: 20px;
+            
+        }
+    }
+h2{
+    color: #75856d;
+    
+    font-size: $txtsmall;
+    margin: 30px;
+    @media screen and (max-width: 808px){
+        font-size: $txtxsmall;
+        margin-top: 10px;
+        
+    }
+    @media screen and (max-width: 568px) {
+        font-size: $txtxxs;
+        margin: 6px;
+        margin-bottom: 10px;
+        
+        
+    }
+}
+p{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: $txtmed;
+    
+        color: #75856d ;
+    
+    @media screen and (max-width: 808px) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+       
+        
+    }
+    @media screen and (max-width: 581px) {
+        margin: 2px;
+        margin-bottom: 6px;
+        font-size: $txtp;
+        
+    }
+    img{
+        width: 30px;
+        @media screen and (max-width:808px) {
+            width: 20px;
+           
+            
+        }
+        @media screen and (max-width: 581px) {
+            width:13px
+            
+        }
+
+    }
+   
+   
+}
+
+
+}
+.seccion3{
+    
+
+    font-family: 'Spectral', serif;
+    padding:  100px;
+    font-size: $txtmed;
+    background-image: url(../imgs/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: row;
+    @media screen and (max-width: 808px) 
+    { padding: 55px;
+        font-size: $txtsmall;
+        
+    }
+    @media screen and (max-width: 581px) {
+        font-size: $txtxsmall;
+        
+    }
+    .container-cere{
+          
+        padding: 30px;
+        background-color: white;
+        @media  screen and (max-width: 581px) {
+            padding: 10px;               
+        }
+        h1{
+            font-size: $txtmed;
+            font-family: $fontsub;
+            color: #75856d;
+            margin: 30px;
+            
+            @media  screen and (max-width: 808px) {
+                font-size: $txtmed;
+                margin: 20px;
+            }
+            @media  screen and (max-width: 581px) {
+                font-size: $txtxsmall;
+                margin: 10px;
+            }
+          
+
+        }
+        h2{
+            font-family: $fontsub;
+            font-size: $txtsmall;
+            @media  screen and (max-width: 808px) {
+                font-size: $txtsmall;
+                
+            }
+            @media  screen and (max-width: 581px) {
+                font-size: $txtxsmall;
+                
+            }
+        }
+        h3{
+            @media  screen and (max-width: 808px) {
+                font-size: $txtsmall;
+                
+            }
+            @media  screen and (max-width: 581px) {
+                font-size: $txtxsmall;
+                
+            }
+
+        }
+        
+        .columna{
+            padding: 30px;
+            &:hover{
+                border-radius: 5px;
+                background-color: #cbc9b8;
+                color: white;
+            }
+            .btn-b{
+               border-color: #FFE8D6;
+                background-color: #cbc9b8;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+                @media screen and (max-width: 568px) {
+                    padding: 7px;
+                    
+                }
+
+            }
+        }
+    }
+}
+
+.seccion4{
+    .container-seccion4{
+        background-color: white;
+        border-radius: 3px;
+        padding: 40px;
+        
+    }
+  padding: 50px;
+    h1{
+        font-size: $txtl;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: #75856d;
+        @media screen and (max-width:808px) {
+            font-size: $txtsmall;
+            
+        }
+
+    }
+    h3{ margin: 100px;
+        padding: 100px;
+        font-size: $txtxsmall;
+       font-family: $fontsub;
+       @media screen and (max-width: 808px) {
+        margin: 10px;
+        padding: 10px;
+        font-size: $txtxxs;
+        
+       }
+    }
+    background-image: url(../imgs/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: ctop;
+    background-size: cover;
+    flex-direction: row;
+    padding: 50px;
+    .item-regalos{
+        img{
+            width: 250px;
+            
+            border-radius: 3px;
+            @media screen and (max-width: 808px) {
+                width:150px
+                
+            }
+        }
+        padding: 30px;
+        &:hover{
+            background-color: #75856d;
+            
+        }
+    }
+    .carrusel{
+        margin: 100px;
+        @media screen and (max-width: 808px) {
+            margin:1px
+
+            
+        }
+        @media screen and (max-width: 568px) {
+            margin-top: 40px;
+            
+            
+        }
+    }
+   .countdown{
+    background-color: aqua;
+   }
+
+}
+

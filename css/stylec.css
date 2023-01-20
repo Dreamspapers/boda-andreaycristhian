@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&family=Waterfall&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nombress{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    background-image: url(../imgs/nombres-1.png);
+    height: 146px;;
+    width: auto;
+}
+
+ h1{
+    background: -webkit-linear-gradient( 135deg, #5e3f3f 10%, #FCFF00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Waterfall', cursive;
+    
+
+}
+h2{
+    font-size: 30px;
+}
+header h2{
+    font-size: 30px;
+    color: #927932;
+    
+    
+}
+
+.cajaconteo{
+    font-size: 40px;
+    color: salmon;
+    margin-bottom: 150px;
+}
+.cajaconteo h2{
+font-size: 30px;
+}
+header{
+   
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    flex-direction: row;
+    background-image: url(../imgs/gabriel-tovar-RmIxQ05GzH0-unsplash.jpg);
+    height: 1900px;
+}
+.se2{
+    padding: 100px;
+    font-family: 'Spectral', serif;
+    background-image: url(../imgs/olga-thelavart-vS3idIiYxX0-unsplash.jpg);
+}
+.se2 h3{
+    margin: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color:#7E7974;
+}
+.contenedorconteo{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    color:#7E7974;
+}
+
+.se3{
+    font-family: 'Spectral', serif;
+    padding:  150px;
+    font-size: 30px;
+    background-image: url(../imgs/kiwihug-y_2GC4EhOP4-unsplash.jpg);
+
+}
+.cer{
+    padding: 50px;
+    background-color: white;
+}
+.piepage{
+    background-image: linear-gradient( 135deg, #FAD7A1 10%, #E96D71 100%);
+    
+    padding: 30px;
+}
+
+.insta img {
+    margin: 30px;
+    width: 50px;
+}
+
+
+@media only screen and (max-width: 808px){
+h1{
+    font-size: 125px;
+
+}
+h2{
+    font-size: 35px;
+}
+header{
+  
+    background-size: cover;
+    flex-direction: row;
+    height: 1190px;
+}
+.nombress{
+    background-size: 60%;
+    height: 110px;
+}
+}
+
+@media only screen and (max-width: 581px){
+    h1{
+        font-size: 95px;
+    
+    }
+    h2{
+        font-size: 5px;
+    }
+    header{
+        height: 800px;
+    }
+    .nombress{
+        background-size: 60%;
+        height: 70px;
+    }
+}
+.piepage{
+    display: none;
+
+}

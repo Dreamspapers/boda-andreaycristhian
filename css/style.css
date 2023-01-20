@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Playfair+Display&family=Roboto+Mono:wght@100;400&family=Sofia+Sans:wght@100&family=Spectral:wght@200&family=Square+Peg&family=Waterfall&display=swap"); /*Incorporando el header correspondiente*/
+.fondo {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  flex-direction: row;
+  background-image: url(../imgs/3r.jpg);
+  height: 1200px;
+  position: relative;
+  /*en el siguiente apartado se encuentra el logo del site*/
+}
+@media only screen and (max-width: 808px) {
+  .fondo {
+    background-size: cover;
+    flex-direction: row;
+    height: 900px;
+  }
+}
+@media only screen and (max-width: 581px) {
+  .fondo {
+    height: 400px;
+  }
+}
+
+.titulos {
+  background: rgba(247, 247, 247, 0.582);
+  width: 900px;
+  font-family: "Square Peg", cursive;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+@media screen and (max-width: 808px) {
+  .titulos {
+    width: auto;
+  }
+}
+@media screen and (max-width: 568px) {
+  .titulos {
+    width: 400px;
+    position: absolute;
+    top: 100px;
+  }
+}
+.titulos h1 {
+  font-size: 65px;
+  color: #75856d;
+}
+@media screen and (max-width: 808px) {
+  .titulos h1 {
+    font-size: 30px;
+  }
+}
+.titulos h2 {
+  font-size: 45px;
+  color: #75856d;
+  /*color: #e4b431;*/
+}
+@media only screen and (max-width: 808px) {
+  .titulos h2 {
+    font-size: 19px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: #75856d;
+}
+
+.conteoss {
+  margin: 50px;
+}
+.conteoss .seccionconteo {
+  font-size: 30px;
+}
+@media only screen and (max-width: 808px) {
+  .conteoss .seccionconteo {
+    font-size: 19px;
+  }
+}
+.conteoss .seccionconteo .contenedorconteo {
+  font-family: "Sofia Sans", sans-serif;
+  color: white;
+  background-color: #75856d;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 2px;
+}
+.conteoss .seccionconteo .contenedorconteo:hover {
+  border-radius: 3px;
+  background-color: white;
+  color: #85826d;
+}
+.conteoss .seccionconteo .contenedorconteo h2 {
+  font-size: 30px;
+}
+@media only screen and (max-width: 808px) {
+  .conteoss .seccionconteo .contenedorconteo h2 {
+    font-size: 12px;
+  }
+}
+
+.container-body {
+  margin: 80px;
+  padding: 40px;
+}
+@media screen and (max-width: 808px) {
+  .container-body {
+    padding: 60px;
+  }
+}
+@media only screen and (max-width: 581px) {
+  .container-body {
+    margin: 40px;
+    padding: 30px;
+  }
+}
+.container-body img {
+  width: 40px;
+}
+@media screen and (max-width: 581px) {
+  .container-body img {
+    width: 20px;
+  }
+}
+.container-body h3 {
+  color: black;
+  margin-bottom: 50px;
+  font-size: 19px;
+}
+@media screen and (max-width: 808px) {
+  .container-body h3 {
+    font-size: 12px;
+    margin: 20px;
+  }
+}
+.container-body h2 {
+  color: #75856d;
+  font-size: 23px;
+  margin: 30px;
+}
+@media screen and (max-width: 808px) {
+  .container-body h2 {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .container-body h2 {
+    font-size: 12px;
+    margin: 6px;
+    margin-bottom: 10px;
+  }
+}
+.container-body p {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  font-size: 30px;
+  color: #75856d;
+}
+@media screen and (max-width: 808px) {
+  .container-body p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 581px) {
+  .container-body p {
+    margin: 2px;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+}
+.container-body p img {
+  width: 30px;
+}
+@media screen and (max-width: 808px) {
+  .container-body p img {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 581px) {
+  .container-body p img {
+    width: 13px;
+  }
+}
+
+.seccion3 {
+  font-family: "Spectral", serif;
+  padding: 100px;
+  font-size: 30px;
+  background-image: url(../imgs/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-direction: row;
+}
+@media screen and (max-width: 808px) {
+  .seccion3 {
+    padding: 55px;
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 581px) {
+  .seccion3 {
+    font-size: 19px;
+  }
+}
+.seccion3 .container-cere {
+  padding: 30px;
+  background-color: white;
+}
+@media screen and (max-width: 581px) {
+  .seccion3 .container-cere {
+    padding: 10px;
+  }
+}
+.seccion3 .container-cere h1 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  color: #75856d;
+  margin: 30px;
+}
+@media screen and (max-width: 808px) {
+  .seccion3 .container-cere h1 {
+    font-size: 30px;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 581px) {
+  .seccion3 .container-cere h1 {
+    font-size: 19px;
+    margin: 10px;
+  }
+}
+.seccion3 .container-cere h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 23px;
+}
+@media screen and (max-width: 808px) {
+  .seccion3 .container-cere h2 {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 581px) {
+  .seccion3 .container-cere h2 {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 808px) {
+  .seccion3 .container-cere h3 {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 581px) {
+  .seccion3 .container-cere h3 {
+    font-size: 19px;
+  }
+}
+.seccion3 .container-cere .columna {
+  padding: 30px;
+}
+.seccion3 .container-cere .columna:hover {
+  border-radius: 5px;
+  background-color: #cbc9b8;
+  color: white;
+}
+.seccion3 .container-cere .columna .btn-b {
+  border-color: #FFE8D6;
+  background-color: #cbc9b8;
+}
+.seccion3 .container-cere .columna .btn-b:hover {
+  background-color: white;
+  color: black;
+}
+@media screen and (max-width: 568px) {
+  .seccion3 .container-cere .columna .btn-b {
+    padding: 7px;
+  }
+}
+
+.seccion4 {
+  padding: 50px;
+  background-image: url(../imgs/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: ctop;
+  background-size: cover;
+  flex-direction: row;
+  padding: 50px;
+}
+.seccion4 .container-seccion4 {
+  background-color: white;
+  border-radius: 3px;
+  padding: 40px;
+}
+.seccion4 h1 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #75856d;
+}
+@media screen and (max-width: 808px) {
+  .seccion4 h1 {
+    font-size: 23px;
+  }
+}
+.seccion4 h3 {
+  margin: 100px;
+  padding: 100px;
+  font-size: 19px;
+  font-family: "Playfair Display", serif;
+}
+@media screen and (max-width: 808px) {
+  .seccion4 h3 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+.seccion4 .item-regalos {
+  padding: 30px;
+}
+.seccion4 .item-regalos img {
+  width: 250px;
+  border-radius: 3px;
+}
+@media screen and (max-width: 808px) {
+  .seccion4 .item-regalos img {
+    width: 150px;
+  }
+}
+.seccion4 .item-regalos:hover {
+  background-color: #75856d;
+}
+.seccion4 .carrusel {
+  margin: 100px;
+}
+@media screen and (max-width: 808px) {
+  .seccion4 .carrusel {
+    margin: 1px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .seccion4 .carrusel {
+    margin-top: 40px;
+  }
+}
+.seccion4 .countdown {
+  background-color: aqua;
+}
+
+.piepage {
+  background-color: rgb(203, 201, 184);
+  color: black;
+  font-size: 12px;
+}
+.piepage .dreams-p img {
+  width: 70px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.piepage .dreams-p img:hover {
+  opacity: 0.3;
+}
+
+/*# sourceMappingURL=style.css.map */
