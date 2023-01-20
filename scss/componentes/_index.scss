@@ -139,7 +139,7 @@ p{
 
 }
 .seccion3{
-    
+  
 
     font-family: 'Spectral', serif;
     padding:  100px;
@@ -262,7 +262,7 @@ p{
     }
     background-image: url(../imgs/fondo.jpg);
     background-repeat: no-repeat;
-    background-position: ctop;
+    background-position: top;
     background-size: cover;
     flex-direction: row;
     padding: 50px;
@@ -295,9 +295,87 @@ p{
             
         }
     }
-   .countdown{
-    background-color: aqua;
-   }
+   
 
 }
+.cooo{
+    background-image: url(../imgs/bg3.jpg);
+   
+    background-position: center;
+    background-size:cover;
+    
+.cfi{
+   
+    .cf2{
+        padding: 80px;
+       
+        
+        background-color: #ffffffe1;
+    
+    h2{
+        display: flex;
+        justify-content: center;
+        font-family: $fontsub;
+        @media screen and (max-width: 568px) {
+            font-size: $txtsmall;
+            
+        }
+    }
+    font-size: $txtsmall;
+    font-family: $fontsub;
+   
+    form{
+        @media screen and (max-width: 568px) {
+            font-size: $txtxsmall;
+            width: 100%;
+            
+        }
+    display: flex;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+        width: 90%;
+        
+        margin: 1px;
+        @media screen and (max-width: 568px) {
+            
+            width: 100%;
+            
+        }
 
+    }
+    
+    fieldset{
+        width: 90%;
+        @media screen and (max-width: 568px) {
+            
+            width: 100%;
+            
+        }
+    }
+    label{
+        width: 90%;
+        height: 2px;
+        margin: 1px;
+        @media screen and (max-width: 568px) {
+            
+            width: 100%;
+            
+        }
+    }
+    textarea{
+        width: 90%;
+        @media screen and (max-width: 568px) {
+            
+            width: 100%;
+            
+        }
+    }}
+    
+    }}
+
+}
